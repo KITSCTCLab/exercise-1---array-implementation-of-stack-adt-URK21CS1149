@@ -8,7 +8,7 @@ class Stack:
         return len(self.items) == 0
 
     def is_full(self):
-         return len(self.items) == size
+        return len(self.items) == size
 
     def push(self, data):
         if not self.is_full():
@@ -16,11 +16,11 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-           self.items.pop()
+            self.items.pop()
 
     def status(self):
         for i in self.items:
-           print(i)       
+            print(i)
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
